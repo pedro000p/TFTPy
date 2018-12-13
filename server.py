@@ -21,7 +21,7 @@ s.setsockopt(SOL_SOCKET, SO_REUSEADDR, True)
 ThreadingUDPServer.allow_reuse_address = True
 
 doc = """
-TFTPy: A server for the TFTP protocol written in Python 3 by Pedro Pereira & Pedro Lourenço (11/06/17)
+TFTPy: The server side for the TFTP protocol. written in Python 3 by Pedro Pereira & Pedro Lourenço (11/06/17)
 
 Usage: server.py [<directory>] [<port>]
 
