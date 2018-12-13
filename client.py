@@ -7,7 +7,7 @@ import socket  # For sockets
 import sys  # For exit
 import struct  # For packets
 import re  # For regular expressions
-from time import sleep  # For waiting for server reply
+from time import sleep  # For waiting for the server reply
 import os.path  # Check file integrity
 from cmd import Cmd  # Use of prompt
 import tftp
