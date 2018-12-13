@@ -21,7 +21,7 @@ ct3 = 0
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 doc = """
-TFTPy: A client and Server using TFTP protocol. Written in Python 3 by Pedro Pereira & Pedro Lourenço (11/06/17)
+TFTPy: The client side using TFTP protocol. Written in Python 3 by Pedro Pereira & Pedro Lourenço (11/06/17)
 
 Usage: 
     client.py (get|put) [-p <serv_port>] <server> <source_file> [<dest_file>]
